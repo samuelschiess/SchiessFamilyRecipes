@@ -1,50 +1,63 @@
+/* Global Variables
+---------------------------------------*/
 a {
     color: white;
 }
-
 div.container-fluid {
-    background-color: #4f81bd;
-    color:white;
+  background-color: #4f81bd;
+  color:white;
 }
-
 div.container {
-    background-color: #26428b;
-    color: white;
+  background-color: #26428b;
+  color: white;
 }
 
+
+/* Header
+---------------------------------------*/
+
+
+
+/* navbar
+---------------------------------------*/
 .navbar {
     width: 100%;
     background-color: #555;
     overflow: auto;
   }
-  
-  /* Navigation links */
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 9%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+} 
+.navbar a:hover {
+  background-color: #000;
+}
+.navbar a.active {
+  background-color: #4f81bd;
+}
+@media screen and (max-width: 500px) {
   .navbar a {
-    float: left;
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    width: 9%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: center; /* If you want the text to be centered */
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
   }
-  
-  /* Add a background color on mouse-over */
-  .navbar a:hover {
-    background-color: #000;
-  }
-  
-  /* Style the current/active link */
-  .navbar a.active {
-    background-color: #4f81bd;
-  }
-  
-  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
-  @media screen and (max-width: 500px) {
-    .navbar a {
-      float: none;
-      display: block;
-      width: 100%;
-      text-align: left; /* If you want the text to be left-aligned on small screens */
-    }
-  }
+}
+
+/* Recipes
+---------------------------------------*/
+
+
+
+/* Recipe Lists
+---------------------------------------*/
+
+
+
+/* returnbar
+---------------------------------------*/
