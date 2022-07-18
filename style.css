@@ -1,14 +1,17 @@
 /* Global Variables
 ---------------------------------------------------------*/
+body {
+  background-color:#EAD2AC;
+}
 a {
     color: white;
 }
 div.container-fluid {
-  background-color: #4f81bd;
+  background-color: #345995;
   color:white;
 }
 div.container {
-  background-color: #26428b;
+  background-color: #345995;
   color: white;
 }
 /* Header
@@ -17,7 +20,7 @@ div.container {
 ---------------------------------------------------------*/
 .navbar {
     width: 100%;
-    background-color: #555;
+    background-color: #87BCDE;
     overflow: auto;
   }
 .navbar a {
@@ -33,7 +36,7 @@ div.container {
   background-color: #000;
 }
 .navbar a.active {
-  background-color: #4f81bd;
+  background-color: #345995;
 }
 @media screen and (max-width: 500px) {
   .navbar a {
@@ -45,7 +48,23 @@ div.container {
 }
 /* Recipes
 ---------------------------------------------------------*/
+.container-flex.recipe {
+  
+}
 /* Recipe Lists
 ---------------------------------------------------------*/
+.recipelist a {
+  background-color: #4A4A48;
+}
 /* returnbar
 ---------------------------------------------------------*/
+.returnbar a {
+  background-color: #87BCDE;
+  padding: 8px;
+}
+
+.returnbar a:hover  {
+  background-color: #87BCDE;
+  color: white;
+  padding:12px;
+}
